@@ -277,7 +277,7 @@ ul {
 	color: white;
 	font-family: 'Dosis', sans-serif;
 	font-weight: normal;
-	font-size: 1.6em;
+	font-size: 2em;
 	margin: 0 auto;
 	padding: 0;
 	width: 75%;
@@ -287,7 +287,7 @@ ul {
 	color: white;
 	font-family: 'Dosis', sans-serif;
 	font-weight: normal;
-	font-size: 1.6em;
+	font-size: 2em;
 	line-height: 1.7em;
 	margin: 30px auto;
 	padding: 0;
@@ -312,7 +312,6 @@ ul {
 	font-family: 'Dosis', sans-serif;
 	margin-top: 1%;
 	padding-top: 0;
-
 }
 
 .section1 h3 {
@@ -321,6 +320,10 @@ ul {
 
 .section2 h2 {
 	font-size: 2.5em;
+}
+
+.team {
+	border: 2px solid grey;
 }
 
 .teamPic {
@@ -447,4 +450,13 @@ form {
 	width: 95%;
 
 }
+
+.section1 .storyOpen {
+	font-size: 2em;
+}
+
+.section1 .storyClose {
+	font-size: 2em;
+}
+
 }
