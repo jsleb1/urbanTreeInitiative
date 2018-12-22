@@ -1,0 +1,24 @@
+body {
+    font-family: 'Gudea', sans-serif;
+}
+h1{
+    margin-bottom: 40px;
+}
+label {
+    color: #333;
+}
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+    background-color: rgb(135, 206, 235);
+}
+
+.btn {
+    background-color: rgb(135, 206, 235);
+}
+
+input {
+    background-color: rgb(135, 206, 235);
+}
