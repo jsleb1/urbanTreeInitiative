@@ -6,7 +6,7 @@ background-color: black;
 body {
     background-color: black;
     margin: 0 auto;
-    font-family: 'Gudea', sans-serif;
+    font-family: 'Dosis', sans-serif;
     overflow-x: hidden;
 
 }
@@ -53,7 +53,7 @@ img {
     font-variant: small-caps;
     margin: 4px auto;
     width: 20%;
-    font-family: 'Rancho', cursive;
+    font-family: 'Dosis', sans-serif;
     letter-spacing: .3em;
     font-size: 0.8em;
 }
@@ -98,7 +98,7 @@ ul {
 
 .box h2 {
     color: black;
-    font-family: 'Rancho';
+    font-family: 'Dosis', sans-serif;
     font-size: 1.8em;
     font-variant: small-caps;
     padding-top: 20px;
@@ -107,17 +107,17 @@ ul {
 
 .box h3 {
     color: rgb(145, 11, 13);
-    font-family: 'Rancho', cursive;
+    font-family: 'Dosis', sans-serif;
 }
 
 .box h4 {
     color: grey;
-    font-family: 'Gudea', sans-serif;
+    font-family: 'Dosis', sans-serif;
 }
 
 .box h5 {
     color: white;
-    font-family: 'Gudea', sans-serif;
+    font-family: 'Dosis', sans-serif;
 }
 
 .welcome {
@@ -126,7 +126,7 @@ ul {
     font-size: 1.8em;
     margin: 0 auto;
     padding: 0;
-    font-family: 'Rancho', small-caps;
+    font-family: 'Dosis', sans-serif;
 }
 
 .home {
@@ -144,7 +144,7 @@ ul {
 .bannerState {
     color: white;
     font-size: 1.3em;
-    font-family: 'Rancho', cursive;
+    font-family: 'Dosis', sans-serif;
 }
 
 .contributeWelcome {
@@ -281,13 +281,13 @@ ul {
 
 .bio figcaption {
     margin: 0 auto;
-    font-family: 'Gudea', sans-serif;
+    font-family: 'Dosis', sans-serif;
     font-size: 1.1em;
     width: 85%;
 }
 
 .aboutDescrip {
-    font-family: 'Gudea', sans-serif;
+    font-family: 'Dosis', sans-serif;
     font-size: 1.2em;
     margin: 0 auto;
     width: 90%;
@@ -335,20 +335,20 @@ form {
     color: orange;
     margin: 20px auto 0;
     padding-top: 10px;
-    font-family: 'Rancho', cursive;
+    font-family: 'Dosis', sans-serif;
 }
 
 .phoneBot {
-    color: rgb(145, 11, 13);
+    color: rgb(9, 98, 12);
     text-shadow: 0 0 3px grey, 0 0 5px white;
     font-weight: bolder;
 }
 
 
 .credit {
-    color: rgb(145, 11, 13);
+    color: rgb(9, 98, 12);
     font-size: .7em;
-    font-family: 'Gudea', sans-serif;\
+    font-family: 'Dosis', sans-serif;
     margin-bottom: 12px;
 }
 

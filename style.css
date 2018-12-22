@@ -5,7 +5,7 @@ background-color: black;
 
 body {
 	background-color: black;
-	font-family: 'Gudea', sans-serif;
+	font-family: 'Dosis', sans-serif;
 	overflow-x: hidden;
 
 }
@@ -52,7 +52,7 @@ img {
 	font-variant: small-caps;
 	margin: 4px auto;
 	width: 20%;
-	font-family: 'Rancho', cursive;
+	font-family: 'Dosis', sans-serif;
 	letter-spacing: .3em;
 	font-size: 0.8em;
 }
@@ -86,7 +86,7 @@ ul {
 	font-size: 1.8em;
 	margin: 0 auto;
 	padding: 0;
-	font-family: 'Rancho', small-caps;
+	font-family: 'Dosis', sans-serif;
 }
 
 .welcomeImg {
@@ -123,7 +123,7 @@ ul {
 .bannerState {
 	color: white;
 	font-size: 1.3em;
-	font-family: 'Rancho', cursive;
+	font-family: 'Dosis', sans-serif;
 }
 
 .welcomeLocation {
@@ -132,7 +132,7 @@ ul {
 	margin: 0 auto;
 	padding: 16px;
 	margin-top: 0;
-	font-family: 'Gudea', sans-serif;
+	font-family: 'Dosis', sans-serif;
 }
 
 .welcomeLocation h2 {
@@ -211,7 +211,7 @@ ul {
 
 .bio p {
 	color: black;
-	font-family: 'Rancho', cursive;
+	font-family: 'Dosis', sans-serif;
 	font-size: 1.3em;
 }
 
@@ -220,7 +220,7 @@ ul {
 	font-weight: bolder;
     margin: 10px auto 0;
 	color: black;
-	font-family: 'Rancho', cursive;
+	font-family: 'Dosis', sans-serif;
 	font-size: 1.9em;
 }
 
@@ -229,7 +229,7 @@ ul {
 	font-weight: normal;
 	font-size: 1.4em;
 	margin: 5px auto 15px;
-	font-family: 'Rancho', cursive;
+	font-family: 'Dosis', sans-serif;
 }
 
 .bio figure img {
@@ -249,7 +249,7 @@ ul {
 }
 
 .aboutDescrip {
-	font-family: 'Gudea', sans-serif;
+	font-family: 'Dosis', sans-serif;
 	font-size: 1.2em;
 	margin: 0 auto;
 	width: 90%;
@@ -275,7 +275,7 @@ ul {
 
 .section1 .storyOpen {
 	color: white;
-	font-family: 'Rancho', cursive;
+	font-family: 'Dosis', sans-serif;
 	font-weight: normal;
 	font-size: 1.6em;
 	margin: 0 auto;
@@ -285,7 +285,7 @@ ul {
 
 .section1 .storyClose {
 	color: white;
-	font-family: 'Rancho', cursive;
+	font-family: 'Dosis', sans-serif;
 	font-weight: normal;
 	font-size: 1.6em;
 	line-height: 1.7em;
@@ -309,13 +309,11 @@ ul {
 
 .section1 h1 {
 	color: black;
-	font-family: 'Rancho', cursive;
+	font-family: 'Dosis', sans-serif;
 	margin-top: 1%;
 	padding-top: 0;
 
 }
-
-
 
 .section1 h3 {
 	margin-top: 10px;
@@ -323,6 +321,11 @@ ul {
 
 .section2 h2 {
 	font-size: 2.5em;
+}
+
+.teamPic {
+	max-height: 330px;
+	margin: 0 auto;
 }
 
 .icon {
@@ -363,7 +366,7 @@ form {
 	color: orange;
 	margin: 20px auto 0;
 	padding-top: 10px;
-	font-family: 'Rancho', cursive;
+	font-family: 'Dosis', sans-serif;
 }
 
 .phoneBot {
@@ -376,7 +379,7 @@ form {
 .credit {
 	color: white;
 	font-size: .7em;
-	font-family: 'Gudea', sans-serif;\
+	font-family: 'Dosis', sans-serif;
 	margin-bottom: 12px;
 	text-decoration: none;
 }
