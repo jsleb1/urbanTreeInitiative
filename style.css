@@ -110,7 +110,7 @@ ul {
 .home {
 	margin: 10px auto;
 	padding: 20px auto;
-	font-size: 1.5em;
+	font-size: 1.3em;
 }
 
 .bannerQuote {
@@ -225,7 +225,8 @@ ul {
 }
 
 .bio .owner {
-	font-weight: bold;
+	color: white;
+	font-weight: normal;
 	font-size: 1.4em;
 	margin: 5px auto 15px;
 	font-family: 'Rancho', cursive;
