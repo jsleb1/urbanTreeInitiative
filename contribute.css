@@ -306,6 +306,11 @@ ul {
 
 .section2 h2 {
     font-size: 2.5em;
+    color: rgb(9, 98, 12);
+}
+
+.section2 h3 {
+    color: rgb(9, 98, 12);
 }
 
 .icon {
