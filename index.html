@@ -1,3 +1,6 @@
+
+
+
 <!doctype HTML>
 <html>
 
@@ -166,8 +169,8 @@
 			</div>
 
 			<div class="row text-center section2" id="Contact-Us">
-				<div class="col-xs-12"><h2>Contact Us</h2></div>
-				<div class="col-xs-12">
+				<div class="col-xs-12 address"><h2>Contact Us</h2></div>
+				<div class="col-xs-12 address">
 					<h4><b>Follow us on:</b></br>
 						<a href="https://www.facebook.com/urbantreeinitiative/">
 							<i class="fab fa-facebook-square icon"></i>
@@ -193,14 +196,14 @@
 					        <div class="row">
 					            <div class="col-md-6">
 					                <div class="form-group">
-					                    <label for="form_name">Firstname *</label>
+					                    <label for="form_name">First Name *</label>
 					                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
 					                    <div class="help-block with-errors"></div>
 					                </div>
 					            </div>
 					            <div class="col-md-6">
 					                <div class="form-group">
-					                    <label for="form_lastname">Lastname *</label>
+					                    <label for="form_lastname">Last Name *</label>
 					                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
 					                    <div class="help-block with-errors"></div>
 					                </div>
@@ -231,7 +234,7 @@
 					                </div>
 					            </div>
 					            <div class="col-md-12">
-					                <input type="submit" class="btn btn-info btn-send" value="Send message">
+					                <input type="submit" class="btn btn-success btn-send" value="Send message">
 					            </div>
 					        </div>
 					        <div class="row">
@@ -275,35 +278,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <script src="validator.js"></script>
         <script src="contact.js"></script>
-        <script type="text/javascript">
-        	$(document).ready(function() {
 
-        //Calculate the height of <header>
-        //Use outerHeight() instead of height() if have padding
-        var aboveHeight = $('header').outerHeight();
-
-	//when scroll
-        $(window).scroll(function(){
-
-	        //if scrolled down more than the header’s height
-                if ($(window).scrollTop() > aboveHeight){
-
-	        // if yes, add “fixed” class to the <nav>
-	        // add padding top to the #content
-                (value is same as the height of the nav)
-                $('nav').addClass('fixed').css('top','0').next()
-                .css('padding-top','60px');
-
-                } else {
-
-	        // when scroll up or less than aboveHeight,
-                remove the “fixed” class, and the padding-top
-                $('nav').removeClass('fixed').next()
-                .css('padding-top','0');
-                }
-        });
-});
-        </script>
 
   </div>
       <div class="modal fade" id="eric" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -333,6 +308,14 @@
                 <div class="modal-body">
                     <img class="img-responsive modalImage" src="vic.jpg" alt="Prooject: Arcade Game">
                     <p class="modalDescription text-center">Vice President</p>
+                    <h4 class="text-center">Personal:</h4>
+					<p class="text-center teamDescription">Victor is a Williamsville native and lives in Clarence, NY with his wife Lisa, and their two children.</p></br>
+					<h4 class="text-center">Professional:</h4>
+					<p class="text-center">Senior Financial Advisor, CRPC®, AIF®</p>
+					<p class="text-center teamDescription">Victor focuses his practice on the needs of doctors, dentists, healthcare professionals, small business owners, individuals, and families.</p></br>
+					<p class="text-center"><em><strong>Contact Victor:</strong></em></p>
+					<p class="text-center">716-839-1234</p>
+					<p class="text-center">vanastasia@lmfs.net </p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

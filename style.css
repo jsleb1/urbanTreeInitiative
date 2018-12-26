@@ -326,8 +326,22 @@ ul {
 	border: 2px solid grey;
 }
 
+.team:hover {
+	background-color: orange;
+	opacity: 0.9;
+}
+
 .teamPic {
 	max-height: 330px;
+	margin: 0 auto;
+}
+.modalDescription {
+	font-weight: bold;
+	font-size: 1.4em;
+}
+
+.teamDescription{
+	width: 80%;
 	margin: 0 auto;
 }
 
@@ -340,6 +354,14 @@ form {
 	margin: 0 auto;
 }
 
+.section2 {
+	background-image: url(urban_logo.png);
+	background-position: top;
+	background-size: 68%;
+	background-repeat: no-repeat;
+	margin-bottom: 20px;
+}
+
 .contact {
 	list-style: none;
 }
@@ -348,8 +370,12 @@ form {
 	color: rgb(9, 98, 12);
 }
 
+.address {
+	background-color: rgba(207, 207, 207, 0.6);
+}
+
 .map {
-	margin: 20px auto 0;
+	margin: 20px auto;
 }
 
 .nav2 {
