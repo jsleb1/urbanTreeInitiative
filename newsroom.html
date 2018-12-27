@@ -1,3 +1,11 @@
+0
+0 0 jsleb1/urbanTreeInitiative
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
+urbanTreeInitiative/newsroom.html
+077c04d  2 hours ago
+@jsleb1 jsleb1 Add files via upload
+
+190 lines (172 sloc)  10.7 KB
 <!doctype HTML>
 <html>
 
@@ -59,8 +67,28 @@
         </header>
 
         <div class="container-fluid box">
-            <div class="row contributeWelcome">
-                <img class="col-xs-12 img-responsive" src="newsroom.jpg" alt="Join Urban Tree Initiative" />
+            <div class="row contributeWelcome readStory">
+                <div class="col-xs-12" data-toggle="modal" data-target="#greenRoof">
+                    <figure>
+                        <img class="img-responsive" src="newsroom.jpg" alt="A business below, a garden above" />
+                    </figure>
+                </div>
+                <div class="col-xs-12" data-toggle="modal" data-target="#greenRoof">
+                    <h3 class="text-center story">Read the full story here</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1 class="text-center">Articles</h1>
+                </div>
+                <div class="col-xs-12 article"" data-toggle="modal" data-target="#buffaloSpree"">
+                    <a target="_blank" href="http://www.buffalospree.com/buffalospreemagazine/archives/2008_04/0408profitplanet.html">
+                    <figure>
+                        <img class="img-responsive teamPic" src="buffSpree.jpg"  alt="Welcome to Buffalo, NY"/>
+                        <figcaption class="text-center"><h3>Profit & Planet</h3><h4>Buffalo Finds Eco-Freindly Ways of Doing Business</h4></figcaption>
+                    </figure>
+                    </a>
+                </div>
             </div>
             <div class="row text-center welcomeLocation" id="About-Urban-Tree-Initiative">
                 <div class="col-xs-12 col-md-3 text-center">
@@ -75,8 +103,8 @@
             </div>
 
             <div class="row text-center section2" id="Contact-Us">
-                <div class="col-xs-12"><h2>Contact Us</h2></div>
-                <div class="col-xs-12">
+                <div class="col-xs-12 address "><h2>Contact Us</h2></div>
+                <div class="col-xs-12 address ">
                     <h4><b>Follow us on:</b></br>
                         <a href="https://www.facebook.com/urbantreeinitiative/">
                             <i class="fab fa-facebook-square icon"></i>
@@ -84,7 +112,7 @@
                     </h4>
                 <div class="col-xs-12 text-center">
                     <h3 class="text-center contactHead">Contact Info</h3>
-                    <h4 class="text-center">Address:</h4>
+                    <h4 class="text-center contact">Address:</h4>
                     <ul class="text-center contact">
                         <li>Urban Tree Initiative</li>
                         <li>1035 William st.</li>
@@ -92,7 +120,7 @@
                     </ul></br>
                 </div>
                 <div class="col-xs-12">
-                    <h3 class="text-center">General Inquiries:</h3>
+                    <h3 class="text-center contactHead">General Inquiries:</h3>
                     <form id="contact-form" method="post" action="contact.php" role="form">
 
                         <div class="messages"></div>
@@ -102,14 +130,14 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label for="form_name">Firstname *</label>
+                                        <label for="form_name">First Name *</label>
                                         <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label for="form_lastname">Lastname *</label>
+                                        <label for="form_lastname">Last Name *</label>
                                         <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
                                         <div class="help-block with-errors"></div>
                                     </div>
@@ -140,7 +168,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-12">
-                                    <input type="submit" class="btn btn-info btn-send" value="Send message">
+                                    <input type="submit" class="btn btn-success btn-send" value="Send message">
                                 </div>
                             </div>
                             <div class="row">
@@ -186,5 +214,51 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <script src="validator.js"></script>
         <script src="contact.js"></script>
+
+        <div class="modal fade" id="greenRoof" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title text-center" id="myModalLabel-2">A Business Below, a Garden Above</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p class="text-center"><em>Article written by: Christopher Michel </em>| News Business Reporter</p>
+                            <img class="img-responsive modalImage" src="newsThumb.jpg" alt="Project: Resume">
+                            <p class="modalDescription text-center">The roof above an ordinary auto shop on Wiliiam Street in Buffalo seems an unlikely place to take an environmental stand, but that's what Eric Fox plans to do.</p></br>
+                            <p class="modalDescription text-center">The owner of Mr. Fox Tire Co. is converting a portion of the expansive roof into a green oasis -- a "green roof." By doing so, Fox is bringing to Buffalo an example of a eco-friendly business practice gaining popularity in the era of global warming.</p></br>
+                            <p class="modalDescription text-center">The roofs -- gardens typically installed on flat roofs -- acommodate a variety of plants, including grasses, small shrubs, vegetable plants and even trees.</p></br>
+                            <p class="modalDescription text-center">Last August, Fox visited the Peace Weavers community in Bath.  It is a small community with a few hundred members dedicated to peace and environmentally friendly practices. After the visit, Fox became passionate about contributing to the environment.</p></br>
+                            <p class="modalDescription text-center">"I've always been concerned about the environment and done things like recycled and driven hybrid vehicles. However, when I visited the community, that's when the lion in me awoke," Fox said.</p></br>
+                            <p class="modalDescription text-center">Green roofs are not widespread in the United States, but the Green Roofs for Healthy Cities Association has been working since 1999 to create awareness of their benefits.</p></br>
+                            <p class="modalDescription text-center">As of 2006, there is over 3 million square feet of green roofs installed across North America, mostly on the roofs of businesses" said Steven Peck, the organization's president. That's equivalent to about 52 football fields.</p></br>
+                            <p class="modalDescription text-center">The Gap clothing company installed a green roof on its national headquarters in California. Ford Motor Co. installed the world's largest green roof, measuring 10.4 acres, atop its corporate headquarters in Dearborn, Mich. Over the new aquarium being built in San Francisco, a green roof spanning 2.5 acres will be installed.</p></br>
+                            <p class="modalDescription text-center">Many major cities, like Toronto, Chicago and New York are moving to have green roofs installed on rooftops.</p></br>
+                            <p class="modalDescription text-center">After a heat wave in 1998, which caused major power outages throughout the city, Chicago began working with the Environmental Protection Agency to install green roofs on many of its buildings. The first was installed on Chicago's city hall. It was theorized that green roofs would cut temperatures on hot days.</p></br>
+                            <p class="modalDescription text-center">Since cities lose green space when buildings go up, green roofs replace the lost natural vegetation. The plants are naturally cooling, thus reducing energy consumption and harmful emissions from power facilities, according to the EPA></p></br>
+                            <p class="modalDescription text-center">Peck said green roofs also provide structures with better means for water drainage, heat and sound insulation, and can make buildings more aesthetically pleasing</p></br>
+                            <p class="modalDescription text-center">Many apartment buildings and condominiums are investing in green roofs because they can basically add a roof-top park to the building, increasing the building's value and giving residents a place to relax," Peck said.</p></br>
+                            <p class="modalDescription text-center">Green roofs also are economical to have installed.</p></br>
+                            <p class="modalDescription text-center">"Because the green roof covers the waterproof membrane on roofs, the typical life of the roof is doubled, from 14 to 25 years, thus saving those who have a green roof money," he said.</p></br>
+                            <p class="modalDescription text-center">Fox has been working with several architects and the Eco-Logic Studio engineering firm since January.</p></br>
+                            <p class="modalDescription text-center">Kevin Connors, owner of Eco-Logic, became involved in constructing green roofs when he attended a natural building colloquium at the Peace Weavers compound in 2004.</p></br>
+                            <p class="modalDescription text-center">Installing the green roof above Mr. Fox Tire will take weeks. First, steel reinforcement beams will be installed under the portion of the roof holding the green roof.</p></br>
+                            <p class="modalDescription text-center">"When installing a green roof, you have to consider water. You have to assume it will be saturated. When you add to that the weight of snow, a building with a green roof needs to be able to support the weight," Connors said.</p></br>
+                            <p class="modalDescription text-center">After the roof is adequately reinforced. Connors can begin work on the rooftop garden.</p></br>
+                            <p class="modalDescription text-center">"Once a waterproof roof membrane is installed on the building, a protective fabric is laid down. Next a drainage layer is put down, which excess water can pass through and reach a building's drainage sustem. On top of that is a moisture retention mat, which keeps moisture in the soil," he said.</p></br>
+                            <p class="modalDescription text-center">After the first three layers are installed, a final layer of soil, vermiculite (a moisture retaining mineral) and other plant growth inhibitors will be added.</p></br>
+                            <p class="modalDescription text-center">"The hard part is the planting" Connors said. "We are looking into installing preplanted trays, with plants that are hearty enough to survive winters. After that, the roof won't need any maintenance, except for watering the plants and weeding the garden."</p></br>
+                            <p class="modalDescription text-center">Connors also will be installing a green roof over Butler Library at Buffalo State College, covering an area of 40 feet by 80 feet.</p></br>
+                            <p class="modalDescription text-center">"We have been looking into installing a green roof for the past few months," said Terry Harding, director of campus services for the college. "The environmental appeal is attractive and ties into the enlightened ways of the college."</p></br>
+                            <p class="modalDescription text-center">Currently, the project is in the design and approval state and is anticipated to be started next spring. If the green roof works out, the college will consider installing green roofs on some of its other 45 buildings," Harding said.</p></br>
+                            <p class="modalDescription text-center">To Fox, the green roof and other environmental projects he is involved in, like planting trees to replace damaged ones from the October snowstorm, are ways he gives back to the area that has been good to his business.</p></br>
+                            <p class="modalDescription text-center">"This is my gift back to the environment and community that has helped support my business for 51 years now," he said. "I certainly hope it inspires others to jump on board and help contribute to the beautification of the area and the environments."</p></br>
+                        </div>
+                        <div class="modal-footer footerMod">
+                            <img src="urban_logo-1.png" alt="Urban Tree Initiative Logo" />
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </body>
 </html>

@@ -150,11 +150,37 @@ ul {
 .contributeWelcome {
     margin: 0 auto;
     padding: 0;
+    height:;
 }
 
 .contributeWelcome img {
-    height: 80%;
+    width: 100%;
 }
+
+.story {
+    margin: -60px auto 20px;
+}
+
+.article {
+    margin: 20px auto;
+}
+
+.modalImage {
+    margin-bottom: 20px;
+}
+
+.modalDescription {
+    margin: 20px auto;
+    font-size: 1.5em;
+}
+
+.footerMod img {
+    display: block;
+    float: left;
+    width: 20%;
+    height: auto;
+}
+
 
 .welcomeLocation {
     background-image: linear-gradient(white, rgb(255, 166, 77), white);
@@ -211,6 +237,12 @@ ul {
 .contribute a:hover {
     text-decoration: none;
     color: black;
+}
+
+.modalDescription {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
 }
 
 .section {
@@ -317,13 +349,30 @@ ul {
     font-size: 2em;
 }
 
+.section2 {
+    background-image: url(urban_logo.png);
+    background-position: top;
+    background-size: 68%;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
 form {
     max-width: 1000px;
     margin: 0 auto;
 }
 
+.contactHead {
+    margin: 3% auto;
+}
+
 .contact {
     list-style: none;
+    padding: 0;
+}
+
+.address {
+    background-color: rgba(207, 207, 207, 0.6);
 }
 
 .map {
@@ -351,7 +400,7 @@ form {
 
 
 .credit {
-    color: rgb(9, 98, 12);
+    color: orange;
     font-size: .7em;
     font-family: 'Dosis', sans-serif;
     margin-bottom: 12px;
