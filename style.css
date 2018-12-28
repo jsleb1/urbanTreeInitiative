@@ -354,7 +354,6 @@ form {
 	margin: 0 auto;
 }
 
-<<<<<<< HEAD
 .section2 {
 	background-image: url(urban_logo.png);
 	background-position: top;
@@ -367,17 +366,6 @@ form {
 	margin: 3% auto;
 }
 
-||||||| merged common ancestors
-=======
-.section2 {
-	background-image: url(urban_logo.png);
-	background-position: top;
-	background-size: 68%;
-	background-repeat: no-repeat;
-	margin-bottom: 20px;
-}
-
->>>>>>> 077c04dac96085d1c3e129d92073ade0433be0e5
 .contact {
 	list-style: none;
 	text-align: center;
