@@ -355,7 +355,7 @@ form {
 }
 
 .section2 {
-	background-image: url(urban_logo.png);
+	background-image: url(urban_logo-1.png);
 	background-position: top;
 	background-size: 68%;
 	background-repeat: no-repeat;
@@ -363,7 +363,7 @@ form {
 }
 
 .contactHead {
-	margin: 3% auto;
+	margin: 2% auto 0;
 }
 
 .contact {
